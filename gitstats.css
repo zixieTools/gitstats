@@ -2,8 +2,8 @@
  * GitStats - default style
  */
 body {
-	color: black;
-	background-color: #dfd;
+	color: #1f2c39;
+	background-color: #eeeeee;
 }
 
 dt {
@@ -19,10 +19,11 @@ dt:after {
 dd {
 	display: block;
 	clear: left;
+	line-height: 40px;
 }
 
 table {
-	border: 1px solid black;
+	border: 1px solid #1f2c39;
 	border-collapse: collapse;
 	font-size: 80%;
 	margin-bottom: 1em;
@@ -46,11 +47,11 @@ table.tags td {
 }
 
 td {
-	background-color: white;
+	background-color: #eeeeee;
 }
 
 th {
-	background-color: #ddf;
+	background-color: #ddddff;
 }
 
 th a {
@@ -58,11 +59,11 @@ th a {
 }
 
 tr:hover {
-	background-color: #ddf;
+	background-color: #ddddff;
 }
 
 td {
-	border: 1px solid black;
+	border: 1px solid #1f2c39;
 	padding: 0.2em;
 	padding-left: 0.3em;
 	padding-right: 0.2em;
@@ -70,7 +71,7 @@ td {
 
 /* Navigation bar; tabbed style */
 .nav {
-	border-bottom: 1px solid black;
+	border-bottom: 1px solid #1f2c39;
 	padding: 0.3em;
 }
 
@@ -88,38 +89,38 @@ td {
 .nav li a {
 	padding: 0.3em;
 	text-decoration: none;
-	color: black;
-	border: 1px solid black;
+	color: #1f2c39;
+	border: 1px solid #1f2c39;
 	margin: 0.5em;
-	background-color: #ddf;
+	background-color: #ddddff;
 }
 
 .nav li a:hover {
-	background-color: #ddd;
-	border-bottom: 1px solid #ddf;
+	background-color: #dddddd;
+	border-bottom: 1px solid #ddddff;
 }
 
 img {
-	border: 1px solid black;
+	border: 1px solid #1f2c39;
 	padding: 0.5em;
-	background-color: white;
+	background-color: #eeeeee;
 }
 
 th img {
 	border: 0px;
 	padding: 0px;
-	background-color: #ddf;
+	background-color: #ddddff;
 }
 
 h1 a, h2 a {
-	color: black;
+	color: #1f2c39;
 	text-decoration: none;
 }
 
 h1:hover a:after,
 h2:hover a:after {
 	content: '¶';
-	color: #555;
+	color: #555555;
 }
 
 h1 {
@@ -127,17 +128,18 @@ h1 {
 }
 
 h2 {
-	background-color: #564;
-	border: 1px solid black;
+	background-color: #7988b3;
+	border: 1px solid #1f2c39;
 	padding-left: 0.5em;
 	padding-right: 0.5em;
-	color: white;
+	color: #eeeeee;
 	font-size: large;
 	clear: both;
+	line-height: 40px;;
 }
 
 h2 a {
-	color: white;
+	color: #eeeeee;
 }
 
 .moreauthors {
